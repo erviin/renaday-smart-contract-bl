@@ -34,20 +34,9 @@ contract RNDXJobContractTest is Test {
     function testJobContractOnChain() public {
         vm.startPrank(owner);
 
-        sc.createContract(
-            userId,
-            projectId,
-            _currency.decimals(),
-            user1,
-            _currencyAddr
-        );
-        (
-            address jobOwner,
-            uint256 totalFund,
-            uint256 createdAt,
-            uint8 decimals,
-            bool exists
-        ) = sc.JobContracts(userId, projectId);
+        sc.createContract(userId, projectId, _currency.decimals(), user1, _currencyAddr);
+        (address jobOwner, uint256 totalFund, uint256 createdAt, uint8 decimals, bool exists) =
+            sc.JobContracts(userId, projectId);
 
         console.log(" total fund", totalFund);
         assertEq(jobOwner, user1);
