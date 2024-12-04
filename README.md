@@ -44,7 +44,7 @@ In this stage, this project has 2 smart contracts
 
 The project continue... 
 
-This project will extends to another type of smart contract to ERC721 [Non-Fungible Tokens | NFT] NFT is not only image, read more https://docs.openzeppelin.com/contracts/5.x/erc721 in renaday concept it will be used to tokenized job contract
+This project will extends to another type of smart contract which is ERC721 [Non-Fungible Tokens | NFT] NFT is not only about images / pictures without art values but have insane price , read more https://docs.openzeppelin.com/contracts/5.x/erc721 for renaday, it will be used to tokenized a real world job contract
 
 ## DEPLOYMENT COMMANDS
 You can check Makefile to see what actuall command buy you can run this command in your terminals
